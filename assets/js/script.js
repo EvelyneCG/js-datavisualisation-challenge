@@ -28,7 +28,7 @@ function updateChart() {
 					labels: dataLabels,
 					datasets: [{
 						data: dataY,
-						label: "AJAX",
+						label: "Crime statistics",
 						borderColor:randomColor(),
 						fill: false
 
