@@ -1,4 +1,4 @@
-document.getElementById("firstHeading").insertAdjacentHTML("afterend", '<canvas id="canvas3" height="400" width="400"></canvas>');
+document.getElementById("firstHeading").insertAdjacentHTML("afterend", '<canvas id="canvas3" height="150" width="400"></canvas>');
 let dataPoints = [];
 let dataLabels = [];
 let dataY = [];
@@ -29,8 +29,9 @@ function updateChart() {
 					datasets: [{
 						data: dataY,
 						label: "AJAX",
-						borderColor: "#000000",
+						borderColor:randomColor(),
 						fill: false
+
 					}]
 				},
 				options: {
